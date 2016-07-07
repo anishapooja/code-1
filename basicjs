@@ -1,0 +1,18 @@
+<script>
+var userChoice =prompt("Do you choose rock, paper or scissors?" );
+var computerChoice = Math.random();
+console.log(computerChoice);
+if(computerChoice<=0.33)
+{
+    return computerChoice="rock";
+    }
+    
+    if else(computerChoice>0.33===0.66)
+    {
+       return computerChoice="paper";
+    }
+    else
+    {
+        return computerChoice="scissors";
+        }
+</script>
